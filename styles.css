@@ -1,1 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.container{
+    display: flex;
+    /* border: 1px solid black; */
+    /* width: 1000px; */
+    height: auto;
+    margin: 20px;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+.img{
+    width: 150px;
+    height: 125px;
+}
+.profile{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.icon{
+    width: 20px;
+}
+.bar{
+    width: 100%;
+}
+.profileAndSkills{
+    /* border: 1px solid green; */
+    width: 500px;
+    padding: 20px;
+}
+.about{
+    width: 500px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.skill1{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.name{
+    padding-left: 75px;
+}
+h2{
+    border-bottom: 2px solid blue;
+}
 
